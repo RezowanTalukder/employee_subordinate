@@ -1,0 +1,32 @@
+{
+  "name": "employees",
+  "version": "1.0.0",
+  "description": "An API to test skills",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "test": "jest"
+  },
+  "author": "Rezowan",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^15.0.0",
+    "express": "^4.17.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^6.1.9",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "jest": "^29.7.0",
+    "node-mocks-http": "^1.17.2",
+    "nodemon": "^3.1.10",
+    "supertest": "^7.1.1"
+  }
+}
